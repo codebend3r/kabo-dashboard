@@ -1,0 +1,6 @@
+{
+  "hooks": {
+    "pre-push": "run-s lint test",
+    "pre-commit": "pretty-quick --staged",
+  }
+}
