@@ -1,0 +1,30 @@
+.o-main-menu {
+  padding: 2px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: start;
+  grid-gap: 8px;
+}
+
+.c-menu-item {
+  list-style: none;
+  width: auto;
+  margin: 0;
+  padding: 2px;
+}
+
+.c-main-menu-link {
+  border: 1px solid #239c6d;
+  background-color: #239c6d;
+  color: #fff;
+  padding: 4px 20px;
+  border-radius: 4px;
+  text-transform: capitalize;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    background-color: #178058;
+  }
+}

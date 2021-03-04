@@ -1,16 +1,30 @@
 .o-user-widget {
+  display: grid;
+  grid-template-columns: auto auto;
   background-color:#CEEEE2;
   border-radius: 8px;
+  padding: 20px;
+  margin: 0;
+  grid-gap: 20px;
+  justify-content: left;
+  align-items: center;
 }
 
 .c-user-widget {
+  &__profile-image {
+    width: auto;
+  }
 
   &__profile-image {
     border: 2px solid #239c6d;
-    width: 50px;
+    width: 80px;
     height: auto;
     border-radius: 50%;
     overflow: hidden;
   }
 
+  &__profile-title {
+    font-size: 18px;
+    color: #094f34;
+  }
 }
