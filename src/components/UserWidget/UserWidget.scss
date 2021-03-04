@@ -1,0 +1,16 @@
+.o-user-widget {
+  background-color:#CEEEE2;
+  border-radius: 8px;
+}
+
+.c-user-widget {
+
+  &__profile-image {
+    border: 2px solid #239c6d;
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+}

@@ -4,7 +4,8 @@
     "paths": {
       "@components/*": ["./src/components/*"],
       "@services/*": ["./src/services/*"],
-      "@svgs/*": ["./src/svgs/*"]
+      "@svgs/*": ["./src/svgs/*"],
+      "@images/*": ["./src/images/*"]
     }
   },
   "exclude": ["dist", "node_modules", "build", "coverage"]
