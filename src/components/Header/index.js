@@ -1,6 +1,6 @@
 import React from 'react'
 
-import KaboLogo from './components/KaboLogo'
+import KaboLogo from '@components/KaboLogo'
 
 const Header = () => (
   <div className="o-header">

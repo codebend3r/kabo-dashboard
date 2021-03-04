@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { KaboSvg } from './svgs/kabo-logo.svg'
+import { ReactComponent as KaboSvg } from '@svgs/kabo-logo.svg'
 
 const KaboLogo = () => <KaboSvg />
 
